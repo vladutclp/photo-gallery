@@ -1,0 +1,16 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(-25.73%, #223E34), color-stop(16.71%, #4D774E), color-stop(99.12%, #9DC88D));
+  background: linear-gradient(180deg, #223E34 -25.73%, #4D774E 16.71%, #9DC88D 99.12%);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+/*# sourceMappingURL=main.css.map */

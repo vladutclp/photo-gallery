@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300&display=swap");
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-image: linear-gradient(180deg, #223E34 -25.73%, #4D774E 16.71%, #9DC88D 99.12%);
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  height: 100vh;
+  color: #fff;
+  padding: 0 3rem;
+  line-height: 1.7;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__brand {
+  display: flex;
+  border-radius: 5px;
+  padding: 0 1rem;
+  align-items: center;
+}
+
+.header__brand-name {
+  word-wrap: break-word;
+  width: min-intrinsic;
+  width: min-content;
+  display: table-caption;
+  display: -ms-grid;
+  -ms-grid-columns: min-content;
+  font-weight: 100;
+  font-size: 1.2rem;
+}
+
+.header__brand-image {
+  margin: .5rem;
+  height: 3rem;
+  width: 3rem;
+  background-color: white;
+  border-radius: 50px;
+}
+
+.header .navbar {
+  flex: 0 0 90%;
+  margin-right: 5rem;
+  display: flex;
+  align-items: center;
+}
+
+.header .navbar__items {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  justify-content: space-around;
+  list-style: none;
+  font-weight: 100;
+  font-size: 1.8rem;
+  align-items: stretch;
+}
+
+.header .navbar__item {
+  padding: 1.5rem 0;
+  height: 100%;
+}
+
+.header .navbar__item--active {
+  font-weight: 400;
+  border-top: 3px solid #F1B24A;
+  color: #F1B24A;
+}

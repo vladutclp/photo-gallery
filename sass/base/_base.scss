@@ -1,0 +1,16 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-image: linear-gradient(180deg, #223E34 -25.73%, #4D774E 16.71%, #9DC88D 99.12%);
+  box-sizing: border-box;
+}

@@ -4,7 +4,7 @@
   "description": "photo gallery landing page",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compile:sass": "node-sass /style/main.scss /style/main.css"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/vladutclp/photo-gallery/issues"
   },
-  "homepage": "https://github.com/vladutclp/photo-gallery#readme"
+  "homepage": "https://github.com/vladutclp/photo-gallery#readme",
+  "dependencies": {
+    "node-sass": "^6.0.1"
+  }
 }
